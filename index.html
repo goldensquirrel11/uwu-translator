@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> English to UwU Translator </title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="icon" type="image/x-icon" href="images/hoho.png">
+    
+    <script src="translate.js"></script>
+</head>
+
+<body>
+    <header>
+        <p>UwU<span>JAM</span></p>
+    </header>
+    <main>
+        <h1 class="translator-name"> English to UwU </h1>
+        <div class="text-box-wrapper">
+            <textarea class="english-input" id="english" rows="6" cols="250" placeholder="English goes here..."></textarea>
+            <textarea class="uwu-input" id="uwu" rows="6" cols="250" placeholder="Or UwU goes here..."></textarea>
+        </div>
+        <div class="button-wrapper">
+            <button id="translate" onclick="translateToUwu()"> Translate </button>
+            <button id="sentence-generator" onclick="generateSentence()">Generate a Random Sentence</button>
+        </div>
+    </main>
+    <footer>
+        I <em> definitely didn't </em> forget about this project (～o￣3￣)～
+    </footer>
+
+</body>
+
+</html>

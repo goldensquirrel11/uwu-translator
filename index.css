@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+body {
+  background: url("images/uwu_bg.png") fixed;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  padding: 0 0 30px;
+  margin: 20px 10px 50px;
+}
+
+header {
+  background-color: rgba(59, 59, 59, 0.664);
+  font-family: "Pathway Gothic One",Arial,San Serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+header p {
+  padding: 7px;
+  color: white;
+}
+
+header span {
+  color: #ffc250;
+}
+
+main * {
+  margin: 10px 5px;
+}
+
+main .translator-name {
+  color: #fff4e0;
+  text-shadow: black 1px 1px 0px, #242424 2px 2px 0px, #3a3a3a 3px 3px 0px, #2c2c2a 4px 4px 0px, #363634 5px 5px 0px, #242422 6px 6px 0px, #5d5d59 5px 5px 15px;
+  font-family: myriad pro,Verdana,Arial,Helvetica,sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+main .text-box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+main .text-box-wrapper textarea {
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  main .text-box-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+}
+
+main #english, main #uwu {
+  background-color: black;
+  font-size: 24px;
+  color: #d4d4d4;
+}
+
+main #english {
+  font-family: "Noto Serif", "Times new roman",  Arial;
+}
+
+main #uwu {
+  font-family: "Shadows Into Light", Arial;
+}
+
+main .button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .button-wrapper button {
+  background-color: #2f92b1;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff4e0;
+}
+
+footer {
+  color: #fff4e0;
+  background-color: rgba(59, 59, 59, 0.616);
+  text-align: center;
+  font-family: "Shadows Into Light", Arial;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=index.css.map */

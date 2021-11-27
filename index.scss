@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+body {
+    background: url('images/uwu_bg.png') fixed;
+    backdrop-filter: blur(3px);
+    padding: 0 0 30px;
+    margin: 20px 10px 50px;
+}
+
+header {
+    background-color: rgba(59, 59, 59, 0.664);
+    font-family: "Pathway Gothic One",Arial,San Serif;
+    text-align: center;
+    font-size: 35px;
+    
+    p {
+        padding: 7px;
+        color: rgb(255, 255, 255);
+    }
+
+    span {
+        color: rgb(255, 194, 80);
+    }
+}
+
+main {
+    * {
+        margin: 10px 5px;
+    }
+    
+    .translator-name {
+        color: rgb(255, 244, 224);
+        text-shadow: rgb(0, 0, 0) 1px 1px 0px, rgb(36, 36, 36) 2px 2px 0px, rgb(58, 58, 58) 3px 3px 0px, rgb(44, 44, 42) 4px 4px 0px, rgb(54, 54, 52) 5px 5px 0px, rgb(36, 36, 34) 6px 6px 0px, rgb(93, 93, 89) 5px 5px 15px;
+        font-family: myriad pro,Verdana,Arial,Helvetica,sans-serif;
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    .text-box-wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+        
+        textarea {
+            padding: 10px;
+        }
+    }
+    
+    @media screen and (max-width: 900px) {
+        .text-box-wrapper {
+            flex-flow: row wrap;
+        }
+    }
+    
+    #english, #uwu {
+        background-color: rgb(0, 0, 0);
+        font-size: 24px;
+        color: rgb(212, 212, 212);
+    }
+    
+    #english {
+        font-family: "Noto Serif", "Times new roman",  Arial;
+    }
+    
+    #uwu {
+        font-family: "Shadows Into Light", Arial;
+    }
+    
+    .button-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        button {
+            background-color: rgb(47, 146, 177);
+            border: 0;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 20px;
+            color: rgb(255, 244, 224);
+        }
+    }
+}
+
+footer {
+    color: rgb(255, 244, 224);
+    background-color: rgba(59, 59, 59, 0.616);
+    text-align: center;
+    font-family: "Shadows Into Light", Arial;
+    letter-spacing: 2px;
+}
